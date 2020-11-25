@@ -14,18 +14,25 @@ get_header();
 
             <section class="recipe-container">
                 <div class="card-container">
-                    <h4>Pudding</h4>
-                    <h3>Mysterious and funny</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit culpa est ad eos magnam? Nobis itaque numquam inventore cumque consequuntur.</p>
-                    <a class="see-full-recipe-button">SEE FULL RECIPE</a>
+                    <h4><?= get_field("index_card_title", get_the_id()) ?></h4>
+                    <h3><?= get_field("index_card_subtitle", get_the_id()) ?></h3>
+                    <p><?= get_field("index_card_description", get_the_id()) ?></p>
+                    <a href="<?php the_permalink() ?>" class="see-full-recipe-button">SEE FULL RECIPE</a>
                 </div>
-                <div class="recipe-image"></div>
+                <div class="recipe-image-container">
+                    <img class="recipe-image" src="<?= get_field("index_card_image", get_the_id()) ?>" alt="">
+                </div>
             </section>
 
     <?php }
     } ?>
 
+    <div class="navigation-links">
+        <?php posts_nav_link('  ...  ', '< Previous Page', '  Next Page >'); ?>
+    </div>
+
 </div>
+
 
 
 <?php

@@ -9,6 +9,11 @@ function custom_register_styles()
     wp_enqueue_style("custom-style", get_template_directory_uri() . "/assets/css/style.css", [], 1.0, 'all');
 }
 
+function custom_register_scripts()
+{
+    wp_enqueue_script("transitions", get_template_directory_uri() . "/js/transitions.js", [], 1.0, true);
+}
+
 function custom_menus()
 {
     $locations = [
@@ -20,6 +25,7 @@ function custom_menus()
 
 add_action("init", "custom_menus");
 add_action("wp_enqueue_scripts", "custom_register_styles");
+add_action("wp_enqueue_scripts", "custom_register_scripts");
 
 
 // function followandrew_add_support()

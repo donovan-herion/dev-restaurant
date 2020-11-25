@@ -2,12 +2,13 @@
 @import "reset";
 @import "mixins";
 @import "header";
+@import "footer";
 @import "front-page";
 @import "menu";
 @import "team";
 @import "index";
 @import "booking";
-
+@import "transitions";
 body {
   font-family: "Poppins";
 }

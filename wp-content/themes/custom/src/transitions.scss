@@ -1,0 +1,9 @@
+.appear-on-scroll {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 3s;
+}
+
+.show {
+  opacity: 1;
+}

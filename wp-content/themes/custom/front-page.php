@@ -23,7 +23,7 @@ get_header();
         <p class="trio-item trio-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit voluptatum libero debitis id excepturi? Quasi quis aspernatur dignissimos hic.</p>
     </div>
 </section> -->
-<section class="discover-menu">
+<section class="discover-menu appear-on-scroll">
     <div class="container">
         <h4>Discover</h4>
         <h3>OUR MENU</h3>
@@ -35,7 +35,7 @@ get_header();
     </div>
 </section>
 
-<section class="discover-about">
+<section class="discover-about appear-on-scroll">
     <div class="container">
         <h4>Discover</h4>
         <h3>OUR STORY</h3>
@@ -47,7 +47,7 @@ get_header();
     </div>
 </section>
 
-<section class="discover-blog">
+<section class="discover-blog appear-on-scroll">
     <div class="container">
         <h4>Discover</h4>
         <h3>OUR BLOG</h3>

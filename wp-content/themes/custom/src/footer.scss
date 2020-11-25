@@ -1,0 +1,16 @@
+footer {
+  color: white;
+  height: 300px;
+  background-color: #050505;
+  padding: 50px 12.5vw;
+  @include flex(row, space-between, stretch);
+  .description-container {
+    width: 300px;
+  }
+  .opening-hours-container {
+    width: 300px;
+  }
+  .contact-us-container {
+    width: 300px;
+  }
+}
