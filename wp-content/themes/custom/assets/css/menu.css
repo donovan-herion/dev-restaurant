@@ -1,0 +1,40 @@
+.header-menu {
+  color: white;
+  margin-top: -120px;
+  padding: 180px 12.5vw;
+  height: 80vh;
+  background: url("../images/menu-header.jpg") no-repeat center center;
+  background-size: cover; }
+  .header-menu h1 {
+    line-height: 2.5em; }
+  .header-menu .title-block {
+    display: block; }
+  .header-menu .title-block,
+  .header-menu .title-bottom {
+    font-size: 70px; }
+
+.menu_main_title {
+  padding-top: 2.5em;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2em; }
+
+.menu_sub_main_title {
+  padding-top: 0.5em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.5em; }
+
+.menu_first_section_container {
+  width: 50%;
+  margin: 3em auto; }
+  .menu_first_section_container .menu_first_section_title {
+    font-weight: 600;
+    font-size: 1.8em;
+    margin: 0 auto 2em;
+    text-align: center;
+    padding: 15px 0;
+    width: 200px;
+    border-bottom: solid 2px black; }
+  .menu_first_section_container .meal_description_container {
+    padding: 15px 0; }

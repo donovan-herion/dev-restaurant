@@ -1,0 +1,59 @@
+.header-index {
+  color: white;
+  margin-top: -120px;
+  padding: 180px 12.5vw;
+  height: 80vh;
+  background: url("../images/recipe.jpg") no-repeat center center;
+  background-size: cover;
+  h1 {
+    line-height: 2.5em;
+  }
+  .title-block {
+    display: block;
+  }
+  .title-block,
+  .title-bottom {
+    font-size: 70px;
+  }
+}
+
+.index_main_title {
+  padding-top: 2em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3em;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: solid 2px black;
+  width: 300px;
+}
+
+.index_section_container {
+  margin: 200px 0;
+  .recipe-container {
+    margin: 150px 12.5vw;
+    background-color: blue;
+    height: 400px;
+    box-shadow: -8px 8px 30px 1px rgba(0, 0, 0, 0.4);
+    @include flex(row, flex-start, stretch);
+    .card-container {
+      @include flex(column, space-between, flex-start);
+      padding: 50px 50px 50px 80px;
+      width: 40%;
+      background-color: white;
+      p {
+        margin: 20px 0 30px;
+        padding: 10px 0;
+      }
+      .see-full-recipe-button {
+        padding: 8px 20px;
+        color: white;
+        background-color: black;
+      }
+    }
+    .recipe-image {
+      background: url("../images/resto2.jpg") no-repeat center center;
+      width: 60%;
+    }
+  }
+}

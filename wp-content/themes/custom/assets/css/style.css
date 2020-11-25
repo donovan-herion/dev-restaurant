@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+  * a {
+    color: black; }
+
+.main-nav {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0 12.5vw;
+  height: 120px;
+  background-color: transparent; }
+  .main-nav a {
+    color: white; }
+  .main-nav .sub-nav {
+    list-style: none;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 120px; }
+    .main-nav .sub-nav .call-to-action {
+      padding: 8px 20px;
+      background-color: white; }
+      .main-nav .sub-nav .call-to-action a {
+        color: black; }
+
+.header-front-page {
+  color: white;
+  margin-top: -120px;
+  padding: 180px 12.5vw;
+  height: 100vh;
+  background: url("../images/banner-top.jpg") no-repeat center bottom;
+  background-size: cover; }
+  .header-front-page h1 {
+    line-height: 2.5em; }
+  .header-front-page .title-block {
+    display: block; }
+  .header-front-page .title-block,
+  .header-front-page .title-bottom {
+    font-size: 70px; }
+
+.values {
+  margin: 0 12.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch; }
+  .values .trio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color: white;
+    padding: 40px 40px 20px;
+    margin: -50px 0;
+    width: 22vw;
+    box-shadow: 0px 8px 20px 2px rgba(0, 0, 0, 0.4); }
+    .values .trio .trio-item {
+      padding: 10px 0; }
+    .values .trio .trio-item-icon {
+      font-size: 50px; }
+    .values .trio .trio-item-value {
+      font-size: 18px;
+      font-weight: bold; }
+    .values .trio .trio-item-text {
+      text-align: center;
+      font-size: 14px;
+      line-height: 2rem; }
+
+.discover-menu {
+  margin: 150px 12.5vw 100px;
+  background: url("../images/the-chef.jpg") no-repeat left center;
+  background-size: 70%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; }
+  .discover-menu .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 50px 50px 80px;
+    height: 60vh;
+    width: 50%;
+    background-color: white;
+    box-shadow: 8px 8px 30px 1px rgba(0, 0, 0, 0.4); }
+    .discover-menu .container .discover-menu-text-container {
+      margin: 20px 0 30px; }
+      .discover-menu .container .discover-menu-text-container p {
+        padding: 10px 0; }
+    .discover-menu .container .check-menu-button {
+      padding: 8px 20px;
+      color: white;
+      background-color: black; }
+
+.discover-about {
+  margin: 150px 12.5vw 100px;
+  background: url("../images/resto2.jpg") no-repeat right center;
+  background-size: 70%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+  .discover-about .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 50px 50px 80px;
+    height: 60vh;
+    width: 50%;
+    background-color: white;
+    box-shadow: -8px 8px 30px 1px rgba(0, 0, 0, 0.4); }
+    .discover-about .container .discover-about-text-container {
+      margin: 20px 0 30px; }
+      .discover-about .container .discover-about-text-container p {
+        padding: 10px 0; }
+    .discover-about .container .check-about-button {
+      padding: 8px 20px;
+      color: white;
+      background-color: black; }
+
+.discover-blog {
+  margin: 150px 12.5vw 100px;
+  background: url("../images/the-burgers.jpg") no-repeat left center;
+  background-size: 70%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; }
+  .discover-blog .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 50px 50px 80px;
+    height: 60vh;
+    width: 50%;
+    background-color: white;
+    box-shadow: 8px 8px 30px 1px rgba(0, 0, 0, 0.4); }
+    .discover-blog .container .discover-blog-text-container {
+      margin: 20px 0 30px; }
+      .discover-blog .container .discover-blog-text-container p {
+        padding: 10px 0; }
+    .discover-blog .container .check-blog-button {
+      padding: 8px 20px;
+      color: white;
+      background-color: black; }
+
+.blog-archive {
+  margin: 0 12.5vw 200px; }
+  .blog-archive h2 {
+    text-align: center; }
+  .blog-archive .archive-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 50px; }
+    .blog-archive .archive-container .archive-card {
+      width: 30%; }
+      .blog-archive .archive-container .archive-card .card-image {
+        height: 200px;
+        background: url("../images/resto2.jpg") no-repeat center center;
+        background-size: cover; }
+      .blog-archive .archive-container .archive-card .card-more-info {
+        height: 50px;
+        background-color: yellow;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; }
+
+footer {
+  color: white;
+  height: 300px;
+  background-color: #050505;
+  padding: 50px 12.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch; }
+  footer .description-container {
+    width: 300px; }
+  footer .opening-hours-container {
+    width: 300px; }
+  footer .contact-us-container {
+    width: 300px; }
+
+.header-menu {
+  color: white;
+  margin-top: -120px;
+  padding: 180px 12.5vw;
+  height: 80vh;
+  background: url("../images/menu-header.jpg") no-repeat center center;
+  background-size: cover; }
+  .header-menu h1 {
+    line-height: 2.5em; }
+  .header-menu .title-block {
+    display: block; }
+  .header-menu .title-block,
+  .header-menu .title-bottom {
+    font-size: 70px; }
+
+.menu_main_title {
+  padding-top: 2em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2em; }
+
+.menu_section_container {
+  margin: 0 12.5% 8em; }
+  .menu_section_container .menu_section_title {
+    font-weight: 600;
+    font-size: 1.8em;
+    margin: 1.5em auto;
+    text-align: center;
+    padding: 15px 0;
+    width: 200px;
+    border-bottom: solid 1px black; }
+  .menu_section_container .meal_description_container {
+    padding: 25px 15px;
+    font-size: 1.3rem; }
+    .menu_section_container .meal_description_container .trio {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch; }
+      .menu_section_container .meal_description_container .trio .dotted_bottom {
+        flex-grow: 1;
+        position: relative;
+        margin: 0 5px; }
+        .menu_section_container .meal_description_container .trio .dotted_bottom:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 0;
+          left: 0;
+          bottom: 6px;
+          border-bottom: 2px dotted #000; }
+      .menu_section_container .meal_description_container .trio .meal-price {
+        font-weight: 600; }
+    .menu_section_container .meal_description_container .section_meal_paragraph {
+      color: #999;
+      font-size: 0.9em;
+      font-style: italic; }
+  .menu_section_container .recommended {
+    border: solid 2px rgba(139, 0, 0, 0.5); }
+  .menu_section_container .none {
+    display: none; }
+  .menu_section_container .chef_selection {
+    padding: 0 10px;
+    font-size: 0.8em;
+    color: white;
+    width: 130px;
+    font-weight: bold;
+    background-color: rgba(139, 0, 0, 0.7); }
+
+.header-team {
+  color: white;
+  margin-top: -120px;
+  padding: 180px 12.5vw;
+  height: 80vh;
+  background: url("../images/cooking3.jpg") no-repeat center center;
+  background-size: cover; }
+  .header-team h1 {
+    line-height: 2.5em; }
+  .header-team .title-block {
+    display: block; }
+  .header-team .title-block,
+  .header-team .title-bottom {
+    font-size: 70px; }
+
+.team_main_title {
+  padding-top: 2em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3em;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: solid 2px black;
+  width: 300px; }
+
+.team_section_container {
+  margin: 5em 12.5% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap; }
+  .team_section_container .team_card_container {
+    margin-bottom: 20vh;
+    width: 28%; }
+    .team_section_container .team_card_container .team_card_img {
+      width: 100%;
+      border-radius: 25px; }
+    .team_section_container .team_card_container .team_card_name {
+      margin: 0 0 40px;
+      font-size: 1.7em;
+      font-weight: 800;
+      color: #333; }
+    .team_section_container .team_card_container .team_card_position {
+      margin: 15px 0;
+      font-weight: 600;
+      color: #777; }
+    .team_section_container .team_card_container .team_card_description {
+      font-style: italic;
+      color: #777;
+      font-size: 1.2em; }
+
+.header-index {
+  color: white;
+  margin-top: -120px;
+  padding: 180px 12.5vw;
+  height: 80vh;
+  background: url("../images/recipe.jpg") no-repeat center center;
+  background-size: cover; }
+  .header-index h1 {
+    line-height: 2.5em; }
+  .header-index .title-block {
+    display: block; }
+  .header-index .title-block,
+  .header-index .title-bottom {
+    font-size: 70px; }
+
+.index_main_title {
+  padding-top: 2em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3em;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: solid 2px black;
+  width: 300px; }
+
+.index_section_container {
+  margin: 200px 0; }
+  .index_section_container .recipe-container {
+    margin: 150px 12.5vw;
+    background-color: blue;
+    height: 400px;
+    box-shadow: -8px 8px 30px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch; }
+    .index_section_container .recipe-container .card-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 50px 50px 50px 80px;
+      width: 40%;
+      background-color: white; }
+      .index_section_container .recipe-container .card-container p {
+        margin: 20px 0 30px;
+        padding: 10px 0; }
+      .index_section_container .recipe-container .card-container .see-full-recipe-button {
+        padding: 8px 20px;
+        color: white;
+        background-color: black; }
+    .index_section_container .recipe-container .recipe-image {
+      background: url("../images/resto2.jpg") no-repeat center center;
+      width: 60%; }
+
+.header-booking {
+  color: white;
+  margin-top: -120px;
+  padding: 180px 12.5vw;
+  height: 80vh;
+  background: url("../images/resto3.jpg") no-repeat center center;
+  background-size: cover; }
+  .header-booking h1 {
+    line-height: 2.5em; }
+  .header-booking .title-block {
+    display: block; }
+  .header-booking .title-block,
+  .header-booking .title-bottom {
+    font-size: 70px; }
+
+.booking_main_title {
+  padding-top: 2em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3em;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: solid 2px black;
+  width: 300px; }
+
+body {
+  font-family: "Poppins"; }

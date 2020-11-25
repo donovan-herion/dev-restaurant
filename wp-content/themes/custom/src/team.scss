@@ -1,0 +1,59 @@
+.header-team {
+  color: white;
+  margin-top: -120px;
+  padding: 180px 12.5vw;
+  height: 80vh;
+  background: url("../images/cooking3.jpg") no-repeat center center;
+  background-size: cover;
+  h1 {
+    line-height: 2.5em;
+  }
+  .title-block {
+    display: block;
+  }
+  .title-block,
+  .title-bottom {
+    font-size: 70px;
+  }
+}
+
+.team_main_title {
+  padding-top: 2em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3em;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: solid 2px black;
+  width: 300px;
+}
+
+.team_section_container {
+  margin: 5em 12.5% 0;
+  @include flex(row, space-between, stretch);
+  flex-wrap: wrap;
+  .team_card_container {
+    margin-bottom: 20vh;
+    width: 28%;
+    .team_card_img {
+      width: 100%;
+      border-radius: 25px;
+    }
+    .team_card_name {
+      margin: 0 0 40px;
+      font-size: 1.7em;
+      font-weight: 800;
+      color: #333;
+    }
+    .team_card_position {
+      margin: 15px 0;
+      font-weight: 600;
+      color: #777;
+    }
+    .team_card_description {
+      font-style: italic;
+      color: #777;
+      font-size: 1.2em;
+    }
+  }
+}

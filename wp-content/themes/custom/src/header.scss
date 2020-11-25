@@ -1,0 +1,28 @@
+.main-nav {
+  a {
+    color: white;
+  }
+  color: white;
+  @include flex(row, space-between, center);
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0 12.5vw;
+  height: 120px;
+  background-color: transparent;
+
+  .sub-nav {
+    list-style: none;
+    font-size: 1.2rem;
+    @include flex(row, space-between, center);
+    width: 50%;
+    height: 120px;
+    .call-to-action {
+      a {
+        color: black;
+      }
+      padding: 8px 20px;
+      background-color: white;
+      // font-weight: bold;
+    }
+  }
+}

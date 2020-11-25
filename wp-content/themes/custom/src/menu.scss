@@ -1,0 +1,86 @@
+.header-menu {
+  color: white;
+  margin-top: -120px;
+  padding: 180px 12.5vw;
+  height: 80vh;
+  background: url("../images/menu-header.jpg") no-repeat center center;
+  background-size: cover;
+  h1 {
+    line-height: 2.5em;
+  }
+  .title-block {
+    display: block;
+  }
+  .title-block,
+  .title-bottom {
+    font-size: 70px;
+  }
+}
+
+.menu_main_title {
+  padding-top: 2em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.menu_section_container {
+  margin: 0 12.5% 8em;
+  .menu_section_title {
+    font-weight: 600;
+    font-size: 1.8em;
+    margin: 1.5em auto;
+    text-align: center;
+    padding: 15px 0;
+    width: 200px;
+    border-bottom: solid 1px black;
+  }
+
+  .meal_description_container {
+    padding: 25px 15px;
+    font-size: 1.3rem;
+
+    .trio {
+      @include flex(row, space-between, stretch);
+      .dotted_bottom {
+        // background-color: blue;
+        flex-grow: 1;
+        position: relative;
+        margin: 0 5px;
+        &:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 0;
+          left: 0;
+          bottom: 6px;
+          border-bottom: 2px dotted #000;
+        }
+      }
+      .meal-price {
+        font-weight: 600;
+      }
+    }
+    .section_meal_paragraph {
+      color: #999;
+      font-size: 0.9em;
+      font-style: italic;
+    }
+  }
+  .recommended {
+    border: solid 2px rgba(139, 0, 0, 0.5);
+  }
+
+  .none {
+    display: none;
+  }
+
+  .chef_selection {
+    padding: 0 10px;
+    font-size: 0.8em;
+    color: white;
+    width: 130px;
+    font-weight: bold;
+    background-color: rgba(139, 0, 0, 0.7);
+  }
+}

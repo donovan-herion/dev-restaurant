@@ -1,0 +1,183 @@
+.header-front-page {
+  color: white;
+  margin-top: -120px;
+  padding: 180px 12.5vw;
+  height: 100vh;
+  background: url("../images/banner-top.jpg") no-repeat center bottom;
+  background-size: cover;
+  h1 {
+    line-height: 2.5em;
+  }
+  .title-block {
+    display: block;
+  }
+  .title-block,
+  .title-bottom {
+    font-size: 70px;
+  }
+  // .white-transition {
+  //   background-image: url("../images/hachures-grises.png");
+  //   background-size: cover;
+  //   height: 25px;
+  //   width: 100vw;
+  // }
+  // background-color: black;
+}
+
+.values {
+  margin: 0 12.5vw;
+  @include flex(row, space-between, stretch);
+  .trio {
+    @include flex(column, space-between, center);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color: white;
+    padding: 40px 40px 20px;
+    margin: -50px 0;
+    width: 22vw;
+    box-shadow: 0px 8px 20px 2px rgba(0, 0, 0, 0.4);
+    .trio-item {
+      padding: 10px 0;
+    }
+    .trio-item-icon {
+      font-size: 50px;
+    }
+    .trio-item-value {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .trio-item-text {
+      text-align: center;
+      font-size: 14px;
+      line-height: 2rem;
+    }
+  }
+}
+
+.discover-menu {
+  margin: 150px 12.5vw 100px;
+  background: url("../images/the-chef.jpg") no-repeat left center;
+  // background-color: blue;
+  background-size: 70%;
+  height: 90vh;
+  @include flex(row, flex-end, center);
+  .container {
+    @include flex(column, space-between, flex-start);
+    padding: 50px 50px 50px 80px;
+    height: 60vh;
+    width: 50%;
+    background-color: white;
+    box-shadow: 8px 8px 30px 1px rgba(0, 0, 0, 0.4);
+    .discover-menu-text-container {
+      margin: 20px 0 30px;
+      p {
+        padding: 10px 0;
+      }
+    }
+    .check-menu-button {
+      padding: 8px 20px;
+      color: white;
+      background-color: black;
+    }
+  }
+}
+
+.discover-about {
+  margin: 150px 12.5vw 100px;
+  background: url("../images/resto2.jpg") no-repeat right center;
+  // background-color: blue;
+  background-size: 70%;
+  height: 90vh;
+  @include flex(row, flex-start, center);
+  .container {
+    @include flex(column, space-between, flex-start);
+    padding: 50px 50px 50px 80px;
+    height: 60vh;
+    width: 50%;
+    background-color: white;
+    box-shadow: -8px 8px 30px 1px rgba(0, 0, 0, 0.4);
+    .discover-about-text-container {
+      margin: 20px 0 30px;
+      p {
+        padding: 10px 0;
+      }
+    }
+    .check-about-button {
+      padding: 8px 20px;
+      color: white;
+      background-color: black;
+    }
+  }
+}
+
+.discover-blog {
+  margin: 150px 12.5vw 100px;
+  background: url("../images/the-burgers.jpg") no-repeat left center;
+  // background-color: blue;
+  background-size: 70%;
+  height: 90vh;
+  @include flex(row, flex-end, center);
+  .container {
+    @include flex(column, space-between, flex-start);
+    padding: 50px 50px 50px 80px;
+    height: 60vh;
+    width: 50%;
+    background-color: white;
+    box-shadow: 8px 8px 30px 1px rgba(0, 0, 0, 0.4);
+    .discover-blog-text-container {
+      margin: 20px 0 30px;
+      p {
+        padding: 10px 0;
+      }
+    }
+    .check-blog-button {
+      padding: 8px 20px;
+      color: white;
+      background-color: black;
+    }
+  }
+}
+.blog-archive {
+  // text-align: center;
+  margin: 0 12.5vw 200px;
+  h2 {
+    text-align: center;
+  }
+  .archive-container {
+    @include flex(row, space-between, stretch);
+    padding-top: 50px;
+    .archive-card {
+      width: 30%;
+      .card-image {
+        height: 200px;
+        background: url("../images/resto2.jpg") no-repeat center center;
+        background-size: cover;
+      }
+      .card-text {
+        // text-align: center;
+      }
+      .card-more-info {
+        height: 50px;
+        background-color: yellow;
+        @include flex(row, space-between, center);
+      }
+    }
+  }
+}
+
+footer {
+  color: white;
+  height: 300px;
+  background-color: #050505;
+  padding: 50px 12.5vw;
+  @include flex(row, space-between, stretch);
+  .description-container {
+    width: 300px;
+  }
+  .opening-hours-container {
+    width: 300px;
+  }
+  .contact-us-container {
+    width: 300px;
+  }
+}
