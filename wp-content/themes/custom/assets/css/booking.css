@@ -1,0 +1,23 @@
+.header-booking {
+  color: white;
+  margin-top: -120px;
+  padding: 180px 12.5vw;
+  height: 80vh;
+  background-color: #292929; }
+  .header-booking h1 {
+    line-height: 2.5em; }
+  .header-booking .title-block {
+    display: block; }
+  .header-booking .title-block,
+  .header-booking .title-bottom {
+    font-size: 70px; }
+
+.booking_main_title {
+  padding-top: 2em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3em;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: solid 2px black;
+  width: 300px; }

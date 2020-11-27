@@ -12,7 +12,7 @@ get_header();
         while (have_posts()) {
             the_post(); ?>
 
-            <section class="recipe-container">
+            <section class="recipe-container appear-on-scroll">
                 <div class="card-container">
                     <h4><?= get_field("index_card_title", get_the_id()) ?></h4>
                     <h3><?= get_field("index_card_subtitle", get_the_id()) ?></h3>

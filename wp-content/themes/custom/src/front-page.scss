@@ -3,7 +3,7 @@
   margin-top: -120px;
   padding: 180px 12.5vw;
   height: 100vh;
-  background: url("../images/banner-top.jpg") no-repeat center bottom;
+  background: url("../images/homepage3.jpg") no-repeat top center;
   background-size: cover;
   h1 {
     line-height: 2.5em;
@@ -15,52 +15,52 @@
   .title-bottom {
     font-size: 70px;
   }
-  // .white-transition {
-  //   background-image: url("../images/hachures-grises.png");
-  //   background-size: cover;
-  //   height: 25px;
-  //   width: 100vw;
-  // }
-  // background-color: black;
 }
 
-.values {
-  margin: 0 12.5vw;
-  @include flex(row, space-between, stretch);
-  .trio {
-    @include flex(column, space-between, center);
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
-    background-color: white;
-    padding: 40px 40px 20px;
-    margin: -50px 0;
-    width: 22vw;
-    box-shadow: 0px 8px 20px 2px rgba(0, 0, 0, 0.4);
-    .trio-item {
-      padding: 10px 0;
-    }
-    .trio-item-icon {
-      font-size: 50px;
-    }
-    .trio-item-value {
-      font-size: 18px;
-      font-weight: bold;
-    }
-    .trio-item-text {
-      text-align: center;
-      font-size: 14px;
-      line-height: 2rem;
-    }
-  }
-}
+// .values {
+//   margin: 0 12.5vw;
+//   @include flex(row, space-between, stretch);
+//   .trio {
+//     @include flex(column, space-between, center);
+//     border-top-left-radius: 60px;
+//     border-top-right-radius: 60px;
+//     background-color: white;
+//     padding: 40px 40px 20px;
+//     margin: -50px 0;
+//     width: 22vw;
+//     box-shadow: 0px 8px 20px 2px rgba(0, 0, 0, 0.4);
+//     .trio-item {
+//       padding: 10px 0;
+//     }
+//     .trio-item-icon {
+//       font-size: 50px;
+//     }
+//     .trio-item-value {
+//       font-size: 18px;
+//       font-weight: bold;
+//     }
+//     .trio-item-text {
+//       text-align: center;
+//       font-size: 14px;
+//       line-height: 2rem;
+//     }
+//   }
+// }
 
 .discover-menu {
   margin: 150px 12.5vw 100px;
-  background: url("../images/the-chef.jpg") no-repeat left center;
-  // background-color: blue;
-  background-size: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 70% 100%;
   height: 90vh;
-  @include flex(row, flex-end, center);
+  &:nth-child(odd) {
+    background-position: left center;
+    @include flex(row, flex-end, center);
+  }
+  &:nth-child(even) {
+    background-position: right center;
+    @include flex(row, flex-start, center);
+  }
   .container {
     @include flex(column, space-between, flex-start);
     padding: 50px 50px 50px 80px;

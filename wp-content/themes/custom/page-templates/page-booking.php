@@ -5,15 +5,28 @@ get_header();
 ?>
 
 <header class="header-booking">
-    <h1><span class="title-block">MEET</span><span class="title-bottom">OUR booking</span></h1>
+    <h1><span class="title-block">TO BE</span><span class="title-bottom">IMPROVED</span></h1>
 </header>
 
-<h2 class="booking_main_title"><?= get_field("main_title") ?></h2>
+<ol style="width: 50%; margin: 0 auto;">
 
-<div class="booking_section_container">
+    <li>
+        <h1>Main page & footer acf</h1>
+    </li>
+    <li>
+        <h1>Single recipe page</h1>
+    </li>
+    <li>
+        <h1>Add tags and category listing for blog page</h1>
+    </li>
+    <li>
+        <h1>Booking Page or template part</h1>
+    </li>
+    <li>
+        <h1>Responsiveness</h1>
+    </li>
+</ol>
 
-
-</div>
 
 
 <?php

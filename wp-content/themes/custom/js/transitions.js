@@ -13,3 +13,6 @@ document.addEventListener("scroll", () => {
     }
   });
 });
+
+const single = document.querySelector(".single-recipe-container");
+single.classList.add("show");

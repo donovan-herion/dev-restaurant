@@ -14,7 +14,7 @@
     list-style: none;
     font-size: 1.2rem;
     @include flex(row, space-between, center);
-    width: 50%;
+    width: 40%;
     height: 120px;
     .call-to-action {
       a {
@@ -22,7 +22,6 @@
       }
       padding: 8px 20px;
       background-color: white;
-      // font-weight: bold;
     }
   }
 }

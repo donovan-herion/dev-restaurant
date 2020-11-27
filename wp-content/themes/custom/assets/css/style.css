@@ -27,7 +27,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 40%;
     height: 120px; }
     .main-nav .sub-nav .call-to-action {
       padding: 8px 20px;
@@ -37,7 +37,6 @@
 
 footer {
   color: white;
-  height: 300px;
   background-color: #050505;
   padding: 50px 12.5vw;
   display: flex;
@@ -46,17 +45,50 @@ footer {
   align-items: stretch; }
   footer .description-container {
     width: 300px; }
+    footer .description-container h3 {
+      margin-bottom: 20px; }
+    footer .description-container p {
+      margin-bottom: 20px; }
+    footer .description-container a img {
+      width: 30px;
+      height: 30px;
+      border-radius: 5px; }
   footer .opening-hours-container {
-    width: 300px; }
+    width: 300px;
+    margin: 0 50px; }
+    footer .opening-hours-container h4 {
+      margin-bottom: 20px; }
+    footer .opening-hours-container div {
+      margin: 5px 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch; }
+      footer .opening-hours-container div i {
+        margin: 5px 15px 0 0; }
+      footer .opening-hours-container div div {
+        flex-grow: 1;
+        position: relative;
+        bottom: 10px;
+        margin: 0 15px;
+        border-bottom: white solid 2px; }
   footer .contact-us-container {
     width: 300px; }
+    footer .contact-us-container h4 {
+      margin-bottom: 20px; }
+    footer .contact-us-container p {
+      margin: 5px 0; }
+    footer .contact-us-container i {
+      margin: 0 15px 0 0; }
+    footer .contact-us-container .margin-left {
+      margin-left: 29px; }
 
 .header-front-page {
   color: white;
   margin-top: -120px;
   padding: 180px 12.5vw;
   height: 100vh;
-  background: url("../images/banner-top.jpg") no-repeat center bottom;
+  background: url("../images/homepage3.jpg") no-repeat top center;
   background-size: cover; }
   .header-front-page h1 {
     line-height: 2.5em; }
@@ -66,45 +98,24 @@ footer {
   .header-front-page .title-bottom {
     font-size: 70px; }
 
-.values {
-  margin: 0 12.5vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch; }
-  .values .trio {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
-    background-color: white;
-    padding: 40px 40px 20px;
-    margin: -50px 0;
-    width: 22vw;
-    box-shadow: 0px 8px 20px 2px rgba(0, 0, 0, 0.4); }
-    .values .trio .trio-item {
-      padding: 10px 0; }
-    .values .trio .trio-item-icon {
-      font-size: 50px; }
-    .values .trio .trio-item-value {
-      font-size: 18px;
-      font-weight: bold; }
-    .values .trio .trio-item-text {
-      text-align: center;
-      font-size: 14px;
-      line-height: 2rem; }
-
 .discover-menu {
   margin: 150px 12.5vw 100px;
-  background: url("../images/the-chef.jpg") no-repeat left center;
-  background-size: 70%;
-  height: 90vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center; }
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 70% 100%;
+  height: 90vh; }
+  .discover-menu:nth-child(odd) {
+    background-position: left center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; }
+  .discover-menu:nth-child(even) {
+    background-position: right center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; }
   .discover-menu .container {
     display: flex;
     flex-direction: column;
@@ -208,8 +219,8 @@ footer {
   color: white;
   margin-top: -120px;
   padding: 180px 12.5vw;
-  height: 80vh;
-  background: url("../images/menu-header.jpg") no-repeat center center;
+  height: 90vh;
+  background: url("../images/menu5.jpg") no-repeat center center;
   background-size: cover; }
   .header-menu h1 {
     line-height: 2.5em; }
@@ -262,7 +273,7 @@ footer {
       font-size: 0.9em;
       font-style: italic; }
   .menu_section_container .recommended {
-    border: solid 2px rgba(139, 0, 0, 0.5); }
+    border: solid 2px #e0a032; }
   .menu_section_container .none {
     display: none; }
   .menu_section_container .chef_selection {
@@ -271,14 +282,14 @@ footer {
     color: white;
     width: 130px;
     font-weight: bold;
-    background-color: rgba(139, 0, 0, 0.7); }
+    background-color: #e0a032; }
 
 .header-team {
   color: white;
   margin-top: -120px;
   padding: 180px 12.5vw;
-  height: 80vh;
-  background: url("../images/cooking3.jpg") no-repeat center center;
+  height: 90vh;
+  background: url("../images/team3.jpg") no-repeat center center;
   background-size: cover; }
   .header-team h1 {
     line-height: 2.5em; }
@@ -329,7 +340,7 @@ footer {
   color: white;
   margin-top: -120px;
   padding: 180px 12.5vw;
-  height: 80vh;
+  height: 90vh;
   background: url("../images/recipe.jpg") no-repeat center center;
   background-size: cover; }
   .header-index h1 {
@@ -400,8 +411,7 @@ footer {
   margin-top: -120px;
   padding: 180px 12.5vw;
   height: 80vh;
-  background: url("../images/resto3.jpg") no-repeat center center;
-  background-size: cover; }
+  background-color: #292929; }
   .header-booking h1 {
     line-height: 2.5em; }
   .header-booking .title-block {
@@ -420,10 +430,101 @@ footer {
   border-bottom: solid 2px black;
   width: 300px; }
 
+.header-single {
+  color: white;
+  margin-top: -120px;
+  padding: 180px 12.5vw;
+  height: 70vh;
+  background-color: #292929; }
+
+.single-recipe-container {
+  width: 50%;
+  margin: -45vh auto 0;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 2s; }
+  .single-recipe-container .recipe-info-container {
+    color: white;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch; }
+    .single-recipe-container .recipe-info-container a {
+      font-weight: bold;
+      padding: 5px 20px 5px 0;
+      color: white;
+      border-right: solid 1px white; }
+    .single-recipe-container .recipe-info-container p {
+      font-weight: bold;
+      padding: 5px 20px 5px 20px; }
+    .single-recipe-container .recipe-info-container .tag-container {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: stretch; }
+      .single-recipe-container .recipe-info-container .tag-container span {
+        font-weight: bold;
+        color: black;
+        border-radius: 15px;
+        background-color: white;
+        padding: 5px 20px;
+        margin: 0 10px; }
+  .single-recipe-container .recipe-title {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin: 30px 0; }
+  .single-recipe-container .recipe-description {
+    color: white; }
+  .single-recipe-container .recipe-image {
+    width: 100%;
+    height: 400px;
+    margin: 70px 0;
+    border-radius: 30px;
+    object-fit: cover; }
+  .single-recipe-container .ingredients-container {
+    margin: 0 0 70px; }
+    .single-recipe-container .ingredients-container .meal-info {
+      margin: 30px 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: stretch; }
+      .single-recipe-container .ingredients-container .meal-info span {
+        padding: 0 10px; }
+    .single-recipe-container .ingredients-container .ingredient-row {
+      border-left: 1px dotted black;
+      margin: 20px 40px;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: stretch; }
+      .single-recipe-container .ingredients-container .ingredient-row span {
+        padding: 0 10px; }
+  .single-recipe-container .instructions-container {
+    margin: 0 0 20vh; }
+    .single-recipe-container .instructions-container .instruction-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 30px 0; }
+      .single-recipe-container .instructions-container .instruction-row .iteration {
+        text-align: center;
+        padding: 20px 30px;
+        margin-right: 50px;
+        border-radius: 50%;
+        background-color: #292929;
+        color: white;
+        font-weight: bold; }
+
 .appear-on-scroll {
   opacity: 0;
   transition-property: opacity;
-  transition-duration: 3s; }
+  transition-duration: 2s; }
 
 .show {
   opacity: 1; }
