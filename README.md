@@ -9,6 +9,7 @@ You can :
 - add items to the menu
 - add team member with their picture
 - add recipes 
+- edit the footer contact infos
 
 
 # Technologies I used
