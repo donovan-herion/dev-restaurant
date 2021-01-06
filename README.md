@@ -8,7 +8,7 @@ You can :
 
 - add items to the menu
 - add team member with their picture
-- add recipes 
+- add recipes in your blog section
 - edit the footer contact infos
 
 
