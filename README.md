@@ -17,4 +17,4 @@ You can :
 
 **SCSS | For structured stylesheet**
 
-![gif](https://media.giphy.com/media/TGcD6N8uzJ9FXuDV3a/giphy.gif)
+![gif](https://media.giphy.com/media/lz71M7A44I4W4pzmYp/giphy.gif)
