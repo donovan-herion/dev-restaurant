@@ -1,4 +1,4 @@
-[Link to the restaurant website](dev-restaurant.unaux.com)
+[Link to the restaurant website](http://dev-restaurant.unaux.com/)
 
 This restaurant website is entirely customizable.
 
